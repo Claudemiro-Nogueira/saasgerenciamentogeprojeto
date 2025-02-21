@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806143501405",
+    "project_id": "gerenciador-de-projetos-9973b",
+    "storage_bucket": "gerenciador-de-projetos-9973b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806143501405:android:f82b1d252fabab540059b4",
+        "android_client_info": {
+          "package_name": "com.example.saasgerenciamentogeprojeto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjmW7RFz22W_pmOBEhhnbdQxWatYi3Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
