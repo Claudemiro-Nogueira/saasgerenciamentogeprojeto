@@ -5,11 +5,11 @@ import 'package:saasgerenciamentogeprojeto/home_screen.dart';
 import 'login_screen.dart'; // Certifique-se de que este arquivo existe e está correto
 
 void main() async {
-WidgetsFlutterBinding.ensureInitialized();
-await Firebase.initializeApp(
-  options: DefaultFirebaseOptions.currentPlatform,
-);
-runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized(); // Garante que o Flutter esteja inicializado
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform, // Inicializa o Firebase
+  );
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/login', // Rota inicial
       routes: {
         '/login': (context) => const LoginScreen(), // Rota para a tela de login
-        '/home': (context) =>  HomeScreen(), // Comente enquanto não implementar
+        '/home': (context) =>  HomeScreen(), // Rota para a tela inicial
+        // '/listar': (context) =>  UserListScreen(), // Rota para a tela de listagem
       },
     );
   }
