@@ -1,0 +1,11 @@
+class Querys {
+  String fecthTarefa = """
+
+
+""";
+
+
+
+
+
+}
