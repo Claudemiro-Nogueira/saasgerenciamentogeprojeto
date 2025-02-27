@@ -1,7 +1,6 @@
 
 # SaaS Gerenciamento de Projetos
 
-![GitHub](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Um aplicativo SaaS (Software como Serviço) para gerenciamento de projetos, desenvolvido em Flutter. O aplicativo permite a criação, organização e acompanhamento de tarefas e projetos em um quadro Kanban, com suporte para autenticação via Firebase, armazenamento de tokens JWT e integração com GraphQL para consultas e mutações.
 
